@@ -2,7 +2,14 @@
 :root{
     --pri-color:#ff4654 ;
     --sec-color:#c32e42 ;
+    --green-color:rgb(4, 122, 58);
+    --danger-color: rgb(223, 4, 4);
+    --link-color:rgb(11, 123, 250);
+    --grey-color:grey;
 }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
 .btn{
     padding: 0.5rem 1rem;
     border: none;
@@ -21,17 +28,39 @@
 }
 .btn-secondary{
     color: white;
-    background-color: grey;
+    background-color:var(--grey-color) ;
+}
+.btn-secondary:hover{
+    background-color: rgb(97, 97, 97);
+    transition: 400ms ease;
 }
 .btn-success{
     color: white;
-    background-color: rgb(4, 122, 58);
+    background-color: var(--green-color) ;
+}
+.btn-success:hover{
+    background-color: rgb(1, 85, 1);
+    transition: 400ms ease;
 }
 .btn-danger{
     color: white;
-    background-color: rgb(223, 4, 4);
+    background-color:var(--danger-color) ;
 }
-
+.btn-danger:hover{
+    background-color: rgb(185, 0, 0);
+    transition: 400ms ease;
+}
+.btn-link{
+    background-color: transparent;
+    color: var(--link-color);
+    border: none;
+    outline: none;
+}
+.btn-link:hover{
+    
+    background-color:rgba(95, 140, 170, 0.336) ;
+    transition: 400ms ease;
+}
 /* Outline buttons */
 
 .btn-outline-primary{
@@ -39,8 +68,49 @@
     border: 1px solid var(--pri-color);
     background-color: white;
 }
+.btn-outline-primary:hover{
+    background-color: var(--pri-color);
+    color:white;
+    transition: 300ms ease;
+}
 .btn-outline-secondary{
-    color: grey;
-    border: 1px solid grey;
+    color: var(--grey-color);
+    border: 1px solid var(--grey-color);
     background-color: white;
+}
+.btn-outline-secondary:hover{
+    color: white;
+    background-color: var(--grey-color);
+    transition: 300ms ease;
+}
+.btn-outline-success{
+    color:var(--green-color);
+    border: 1px solid var(--green-color);
+    background-color: white;
+}
+.btn-outline-success:hover{
+    color: white;
+    background-color: var(--green-color);
+    transition: 300ms ease;
+}
+.btn-outline-danger{
+    color: var(--danger-color);
+    border: 1px solid var(--danger-color);
+    background-color: white;
+}
+.btn-outline-danger:hover{
+    color: white;
+    background-color: var(--danger-color);
+    transition: 300ms ease;
+}
+
+/* Button Sizes */
+
+.btn-large{
+    padding: 0.5rem 2.5rem;
+    font-size: 1.5em;
+}
+.btn-small{
+    padding: 0.3rem 0.7rem;
+    font-size: 0.8em;
 }
