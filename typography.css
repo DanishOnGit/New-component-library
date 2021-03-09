@@ -1,0 +1,113 @@
+/* Classes to match the styling of a heading without using the associated html tag if needed. */
+.h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+.h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+.h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+.h4 {
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+.h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+.h6 {
+  display: block;
+  font-size: 0.67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+/* Display Headings --> these are larger heading styles */
+.display-1 {
+  font-weight: bolder;
+  font-size: 5rem;
+}
+.display-2 {
+  font-weight: bolder;
+  font-size: 4.5rem;
+}
+.display-3 {
+  font-weight: bolder;
+  font-size: 4rem;
+}
+.display-4 {
+  /* font-weight: bolder; */
+  font-size: 2rem;
+}
+
+/* text highlights*/
+.small {
+  font-size: smaller;
+}
+.mark {
+  background-color: rgb(223, 164, 164);
+  color: rgb(180, 5, 5);
+}
+.strong {
+  font-weight: bolder;
+}
+.italic {
+  font-style: italic;
+}
+.underline {
+  text-decoration: underline;
+}
+.line-through {
+  text-decoration: line-through;
+}
+
+/* Lists */
+
+.list-non-bullet {
+  list-style: none;
+  padding: 1rem 0rem;
+  padding-inline-start: 0;
+}
+.list-non-bullet li{
+    padding: 0.3rem 0;
+}
+.list-items-flex{
+  display: flex;
+  padding: 0 1rem;
+  padding-inline-start: 0;
+}
+.list-items-flex li{
+    padding: 0 0.5rem;
+}

@@ -1,0 +1,46 @@
+/* Colored buttons */
+:root{
+    --pri-color:#ff4654 ;
+    --sec-color:#c32e42 ;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+.btn-primary{
+    color: white;
+    background-color: var(--pri-color) ;
+}
+.btn-primary:hover{
+    background-color: var(--sec-color);
+    transition: 400ms ease;
+}
+.btn-secondary{
+    color: white;
+    background-color: grey;
+}
+.btn-success{
+    color: white;
+    background-color: rgb(4, 122, 58);
+}
+.btn-danger{
+    color: white;
+    background-color: rgb(223, 4, 4);
+}
+
+/* Outline buttons */
+
+.btn-outline-primary{
+    color: var(--pri-color);
+    border: 1px solid var(--pri-color);
+    background-color: white;
+}
+.btn-outline-secondary{
+    color: grey;
+    border: 1px solid grey;
+    background-color: white;
+}
