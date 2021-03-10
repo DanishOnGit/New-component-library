@@ -101,7 +101,7 @@
   padding-inline-start: 0;
 }
 .list-non-bullet li{
-    padding: 0.3rem 0;
+    padding: 0.3em 0;
 }
 .list-items-flex{
   display: flex;
@@ -109,5 +109,25 @@
   padding-inline-start: 0;
 }
 .list-items-flex li{
-    padding: 0 0.5rem;
+    padding: 0 0.5em;
+}
+.list-stacked{
+  padding-inline-start: 0;
+  border-radius: 1rem;
+  width: fit-content;
+}
+.list-stacked li{
+  background-color:rgba(3, 35, 82, 0.486);
+  color: white;
+  padding: 0.7em ;
+  border:1px solid grey;
+}
+.list-stacked-hover li:hover{
+  background-color: rgb(165, 165, 165);
+}
+.list-stacked li:first-child{
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+.list-stacked li:last-child{
+  border-radius: 0 0 0.2rem 0.2rem;
 }

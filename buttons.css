@@ -61,6 +61,47 @@ body {
     background-color:rgba(95, 140, 170, 0.336) ;
     transition: 400ms ease;
 }
+.btn-float{
+    border-radius: 50%;
+    background-color: var(--pri-color);
+    color: white;
+    border: none;
+    outline: none;
+    height: 3rem;
+    width: 3rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+.btn-icon{
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: var(--pri-color);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn-icon-hover:hover{
+    background-color: rgb(247, 199, 199);
+    transition: 300ms ease;
+}
+.btn-outline-icon{
+    color: var(--pri-color);
+    padding: 0.2rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border:1px solid var(--pri-color);
+    outline: none;
+    cursor: pointer;
+}
+.btn-outline-icon-hover:hover{
+    background-color: rgb(247, 199, 199);;
+    transition: 300ms ease;
+}
 /* Outline buttons */
 
 .btn-outline-primary{
