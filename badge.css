@@ -1,0 +1,35 @@
+:root {
+  --errorbadge-color: #e53e3e;
+  --successbadge-color: #38a169;
+  --warningbadge-color: #dd6b20;
+  --infobadge-color: #3182ce;
+  --neutralbadge-color:gray;
+}
+.badge-error,
+.badge-success,
+.badge-warning,
+.badge-info,
+.badge-neutral{
+  width: fit-content;
+  padding: 0.2rem;
+  color: white;
+  border-radius: 4px;
+  font-size: 0.7em;
+  margin: 0.2em;
+}
+.badge-error {
+  background-color: var(--errorbadge-color);
+}
+.badge-success {
+  background-color: var(--successbadge-color);
+}
+.badge-warning {
+  background-color: var(--warningbadge-color);
+}
+.badge-info {
+  background-color: var(--infobadge-color);
+}
+.badge-neutral{
+    background-color:var(--neutralbadge-color);
+}
+

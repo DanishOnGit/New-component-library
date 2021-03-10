@@ -1,0 +1,26 @@
+:root {
+  --error-color: #fed7d7;
+  --success-color: #c6f6d5;
+  --warning-color: #feebc8;
+  --info-color: #bee3f8;
+}
+.error,
+.success,
+.warning,
+.info {
+  padding: 0.5rem;
+  width: fit-content;
+  border-radius: 0.4rem;
+}
+.error {
+  background-color: var(--error-color);
+}
+.success {
+  background-color: var(--success-color);
+}
+.warning {
+  background-color: var(--warning-color);
+}
+.info {
+  background-color: var(--info-color);
+}
