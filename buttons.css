@@ -56,6 +56,9 @@ body {
   color: var(--link-color);
   border: none;
   outline: none;
+  width: fit-content;
+  margin: 0;
+  /* padding: 0 0.3em; */
 }
 .btn-link:hover {
   background-color: rgba(95, 140, 170, 0.336);

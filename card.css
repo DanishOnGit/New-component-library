@@ -1,0 +1,32 @@
+/* Text only card  (Vetical)*/
+.card-collection{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-wrapper{
+    /* width: 200px; */
+    background-color: bisque;
+    border-radius: 0.5rem;
+}
+.card-heading{
+    padding: 0.3em;
+    border-bottom:1px solid grey;
+}
+.card-body{
+    padding: 0.3em 0.3em 0.7em 0.3em; 
+}
+.card-footer{
+    border-top: 1px solid grey;
+}
+.card-footer .btn-link{
+    padding: 0.7em 0.3em;
+}
+.card-shadow-dark{
+    box-shadow: 0 0 10px 1px grey;
+}
+.card-shadow-light{
+    box-shadow: 0 0 10px 1px rgba(245, 245, 245, 0.76);
+}
+
+
+/* Horizontal cards */
