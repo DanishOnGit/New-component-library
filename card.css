@@ -1,25 +1,47 @@
+:root {
+    --pri-color: #ff4654;
+    --sec-color: #c32e42;
+    --green-color: rgb(4, 122, 58);
+    --danger-color: rgb(223, 4, 4);
+    --link-color: rgb(11, 123, 250);
+    --grey-color: grey;
+  }
 /* Text only card  (Vetical)*/
 .card-collection{
     display: flex;
     justify-content: space-evenly;
 }
-.card-wrapper{
+.text-card-wrapper{
     /* width: 200px; */
     background-color: bisque;
     border-radius: 0.5rem;
 }
-.card-heading{
-    padding: 0.3em;
+.text-card-wrapper .card-heading{
+    padding: 0.5rem;
     border-bottom:1px solid grey;
 }
-.card-body{
-    padding: 0.3em 0.3em 0.7em 0.3em; 
+.text-card-wrapper .card-body{
+    padding: 0.3em 0.5rem 0.7em 0.5rem; 
 }
-.card-footer{
+.text-card-wrapper .card-footer{
     border-top: 1px solid grey;
 }
-.card-footer .btn-link{
-    padding: 0.7em 0.3em;
+.text-card-wrapper .card-footer .btn-link{
+    padding: 0.7em 0.5rem;
+}
+.text-card-wrapper .card-heading{
+    position:relative;
+}
+.text-card-wrapper .card-heading .btn-link{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding:0.5rem;
+    font-weight: bolder;
+    color: var(--sec-color);
+}
+.text-card-wrapper .card-heading .btn-link:hover{
+    background-color: rgb(238, 206, 211) ;
 }
 .card-shadow-dark{
     box-shadow: 0 0 10px 1px grey;
@@ -30,3 +52,46 @@
 
 
 /* Horizontal cards */
+.image-card-wrapper{
+    border-radius: 0.5rem;
+    background-color: palegoldenrod;
+}
+.outlined{
+    border: 1px solid grey;
+}
+.card-image img{
+    width: 100%;
+   height: 10rem;
+   border-radius: 0.5rem 0.5rem 0 0;
+}
+.image-card-wrapper .card-heading{
+    padding: 0.2rem 0.7rem;
+}
+.image-card-wrapper .card-body{
+    padding: 0.2rem 0.7rem;
+}
+.image-card-wrapper .btn-primary{
+    margin:  0.5rem 0.7rem;
+}
+.image-card-wrapper .card-footer .btn-link{
+    padding: 0.7rem 0.7rem;
+}
+.image-card-wrapper .card-image{
+    position: relative;
+}
+.image-card-wrapper .card-image .btn-link{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding:0.5rem;
+    font-weight: bolder;
+    color: var(--sec-color);
+}
+.image-card-wrapper .card-image .btn-link:hover{
+    background-color: rgb(238, 206, 211);
+}
+.image-card-wrapper .card-image .badge-success{
+    position: absolute;
+    top: 1rem;
+    left: 0rem;
+}
