@@ -78,6 +78,7 @@ body {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
+  z-index: 99;
   cursor: pointer;
 }
 .btn-icon {

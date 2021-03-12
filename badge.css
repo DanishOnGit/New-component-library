@@ -3,13 +3,13 @@
   --successbadge-color: #38a169;
   --warningbadge-color: #dd6b20;
   --infobadge-color: #3182ce;
-  --neutralbadge-color:gray;
+  --neutralbadge-color: gray;
 }
 .badge-error,
 .badge-success,
 .badge-warning,
 .badge-info,
-.badge-neutral{
+.badge-neutral {
   width: fit-content;
   padding: 0.2rem;
   color: white;
@@ -29,9 +29,119 @@
 .badge-info {
   background-color: var(--infobadge-color);
 }
-.badge-neutral{
-    background-color:var(--neutralbadge-color);
+.badge-neutral {
+  background-color: var(--neutralbadge-color);
 }
 
 /* badges on avatar */
+.green-badge {
+  background-color: green;
+}
+.red-badge {
+  background-color: rgb(182, 3, 3);
+}
+ 
+.avatar-wrapper-small,
+.avatar-wrapper-normal,
+.avatar-wrapper-medium,
+.avatar-wrapper-large {
+  position: relative;
+  width: max-content;
+}
 
+/* Badges for small avatars */
+.avatar-wrapper-small .red-badge {
+  /* display: inline; */
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+}
+.avatar-wrapper-small .green-badge {
+  /* display: inline; */
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+}
+
+/* badges for normal avatars */
+.avatar-wrapper-normal .red-badge {
+  /* display: inline; */
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+}
+.avatar-wrapper-normal .green-badge {
+  /* display: inline; */
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+}
+
+/* badges for medium avatars */
+.avatar-wrapper-medium .green-badge {
+  /* display: inline; */
+  position: absolute;
+  bottom: 0.55rem;
+  right: 0rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+}
+.avatar-wrapper-medium .red-badge {
+  /* display: inline; */
+  position: absolute;
+  bottom: 0.55rem;
+  right: 0rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+}
+
+/* badges for large avatars */
+
+.avatar-wrapper-large .green-badge {
+  /* display: inline; */
+  position: absolute;
+  bottom: 0.7rem;
+  right:0rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+}
+.avatar-wrapper-large .red-badge {
+  /* display: inline; */
+  position: absolute;
+  bottom: 0.7rem;
+  right: 0rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+}

@@ -1,4 +1,9 @@
-.avatar {
+.avatar-small{
+  border-radius: 50%;
+  height: 2.8rem;
+  width: 2.8rem;
+}
+.avatar-normal {
   border-radius: 50%;
   height: 3.5rem;
   width: 3.5rem;
