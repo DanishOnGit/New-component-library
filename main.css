@@ -1,13 +1,15 @@
-
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
 @import url("avatar.css");
 @import url("badge.css");
 @import url("buttons.css");
 @import url("card.css");
+@import url("inputs.css");
 @import url("typography.css");
 @import url("alerts.css");
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     margin: 1rem;
