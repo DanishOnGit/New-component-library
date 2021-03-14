@@ -1,8 +1,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+@import url("navigationBars.css");
 @import url("avatar.css");
 @import url("badge.css");
 @import url("buttons.css");
 @import url("card.css");
+@import url("modal.css");
 @import url("inputs.css");
 @import url("typography.css");
 @import url("alerts.css");
@@ -11,7 +13,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --pri-color:#fc452e;
+    --sec-color: #db1d08;
+    --green-color: rgb(4, 122, 58);
+    --danger-color: rgb(223, 4, 4);
+    --link-color: rgb(11, 123, 250);
+    --grey-color: grey;
+  }
 body{
     margin: 1rem;
-    /* background-color: navy; */
 }

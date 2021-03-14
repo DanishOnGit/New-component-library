@@ -18,7 +18,7 @@
     padding: 0.2em;
     border:1px solid var(--grey-color);
 } 
-#basic-addon-1{
+.basic-addon-1{
     border-radius: 0.3rem 0 0 0.3rem;
 }
 .input-field-1{
@@ -43,7 +43,7 @@
     border-left: 1px solid var(--grey-color);
     border-right: none;
 }
-#basic-addon-2{
+.basic-addon-2{
     border-radius:0 0.3rem 0.3rem 0;
 }
 

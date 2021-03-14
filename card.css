@@ -13,7 +13,6 @@
 }
 .text-card-wrapper{
     /* width: 200px; */
-    background-color: bisque;
     border-radius: 0.5rem;
 }
 .text-card-wrapper .card-heading{
@@ -38,11 +37,9 @@
     right: 0.5rem;
     padding:0.5rem;
     font-weight: bolder;
-    color: var(--sec-color);
+    color: var(--grey-color);
 }
-.text-card-wrapper .card-heading .btn-link:hover{
-    background-color: rgb(238, 206, 211) ;
-}
+
 .card-shadow-dark{
     box-shadow: 0 0 10px 1px grey;
 }
@@ -54,7 +51,7 @@
 /* Horizontal cards */
 .image-card-wrapper{
     border-radius: 0.5rem;
-    background-color: palegoldenrod;
+    
 }
 .outlined{
     border: 1px solid grey;
@@ -85,11 +82,11 @@
     right: 0.5rem;
     padding:0.5rem;
     font-weight: bolder;
-    color: var(--sec-color);
+    color: var(--grey-color);
 }
-.image-card-wrapper .card-image .btn-link:hover{
+/* .image-card-wrapper .card-image .btn-link:hover{
     background-color: rgb(238, 206, 211);
-}
+} */
 .image-card-wrapper .card-image .badge-success{
     position: absolute;
     top: 1rem;

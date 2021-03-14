@@ -13,7 +13,52 @@
     <title>Component Library</title>
   </head>
   <body>
-    <p class="line-through">
+    <div class="nav-wrapper-1">
+      <div class="brand">LOGO.</div>
+      <div>
+        <ul class="list-items-flex list-non-bullet" id="list-addon-1">
+          <li>Home</li>
+          <li>Profile</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="nav-wrapper-2">
+      <div class="brand">LOGO.</div>
+      <div class="list-centered">
+        <ul class="list-items-flex list-non-bullet" id="list-addon-2">
+          <li>Home</li>
+          <li>Profile</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+
+    <br />
+    <!-- <div class="modal-wrapper" style="width: 25rem">
+      <div class="modal-header">
+        <h2>Modal title</h2>
+        <span><i class="fas fa-times" id="closeIt"></i></span>
+      </div>
+      <div class="modal-body">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+          nemo voluptatum id reprehenderit amet totam.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline-secondary" id="closeMe">Close</button>
+        <button class="btn btn-primary">Save</button>
+      </div>
+    </div> -->
+    <br />
+
+    <p class="line-through centered">
       hey guys <span class="mark">danish here</span
       ><span class="strong italic">boldtext</span>
     </p>
@@ -128,7 +173,7 @@
       </div>
     </div>
     <hr />
-    <!-- <div class="card-collection">
+    <div class="card-collection">
       <div class="text-card-wrapper card-shadow-dark" style="width: 14rem">
         <div class="card-heading">
           <h1>Simple Heading</h1>
@@ -147,10 +192,10 @@
         </div>
       </div>
 
-      <!-- <div class="text-card-wrapper" style="width: 14rem">
+      <div class="text-card-wrapper card-shadow-dark" style="width: 14rem">
         <div class="card-heading">
           <h1>Simple Heading</h1>
-          <button class="btn btn-link">X</button>
+          <button class="btn btn-link"><i class="fas fa-times"></i></button>
         </div>
         <div>
           <p class="card-body">
@@ -165,9 +210,8 @@
       <div class="image-card-wrapper outlined" style="width: 25rem">
         <div class="card-image">
           <img src="luke-stackpoole-eWqOgJ-lfiI-unsplash.jpg" alt="..." />
-          <button class="btn btn-link">X</button>
+          <button class="btn btn-link"><i class="fas fa-times"></i></button>
           <span class="badge-success">New</span>
-         
         </div>
         <div>
           <h3 class="card-heading">A simple heading.</h3>
@@ -185,7 +229,7 @@
         </div>
       </div>
 
-      <div class="image-card-wrapper" style="width: 25rem">
+      <div class="image-card-wrapper card-shadow-dark" style="width: 25rem">
         <div class="card-image">
           <img src="luke-stackpoole-eWqOgJ-lfiI-unsplash.jpg" alt="..." />
           <p class="top-left">Text Overlay</p>
@@ -197,7 +241,7 @@
         <div>
           <h3 class="card-heading">A simple heading.</h3>
         </div>
-        
+
         <div>
           <p class="card-body">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
@@ -212,22 +256,21 @@
         </div>
       </div>
     </div>
-    <hr /> -->
-    -->
+    <hr />
 
     <div class="input-field-wrapper">
-      <span class="input-text" id="basic-addon-1">@</span>
+      <span class="input-text basic-addon-1">@</span>
       <input class="input-field-1" type="text" placeholder="Username" />
     </div>
     <br />
     <div class="input-field-wrapper">
       <input class="input-field-2" type="text" placeholder="Email id" />
-      <span class="input-text" id="basic-addon-2">@example.com</span>
+      <span class="input-text  basic-addon-2" >@example.com</span>
     </div>
     <br />
 
     <div class="input-field-wrapper">
-      <span class="input-text size-medium" id="basic-addon-1">medium</span>
+      <span class="input-text size-medium basic-addon-1" >medium</span>
       <input
         class="input-field-1 size-medium"
         type="text"
@@ -237,7 +280,7 @@
     <br />
 
     <div class="input-field-wrapper">
-      <span class="input-text size-large" id="basic-addon-1">large</span>
+      <span class="input-text size-large basic-addon-1" >large</span>
       <input
         class="input-field-1 size-large"
         type="text"
@@ -247,7 +290,7 @@
     <br />
 
     <div class="input-field-wrapper">
-      <button class="btn btn-secondary" id="basic-addon-1">Secondary</button>
+      <button class="btn btn-secondary basic-addon-1" >Secondary</button>
       <input
         class="input-field-1 size-medium"
         type="text"
@@ -262,7 +305,7 @@
         type="password"
         placeholder="Enter password"
       />
-      <button class="btn btn-secondary" id="basic-addon-2">
+      <button class="btn btn-secondary basic-addon-2">
         show password
       </button>
     </div>
@@ -270,11 +313,11 @@
 
     <div class="form-field-wrapper">
       <div class="input-field-wrapper">
-        <span class="input-text size-medium" id="basic-addon-1">medium</span>
+        <span class="input-text size-medium basic-addon-1" >medium</span>
         <input
           class="input-field-1 size-medium"
           type="text"
-          id="validation01"
+          
           placeholder="Username"
         />
       </div>
@@ -286,11 +329,11 @@
 
     <div class="form-field-wrapper">
       <div class="input-field-wrapper">
-        <span class="input-text size-medium" id="basic-addon-1">medium</span>
+        <span class="input-text size-medium basic-addon-1">medium</span>
         <input
           class="input-field-1 size-medium"
           type="text"
-          id="validation01"
+          
           placeholder="Username"
         />
       </div>
@@ -327,5 +370,6 @@
         title="Sucks big time - 1 star"
       ></label>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

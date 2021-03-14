@@ -7,6 +7,9 @@
   --grey-color: grey;
 }
 /* Classes to match the styling of a heading without using the associated html tag if needed. */
+.centered{
+  text-align: center;
+}
 
 .h1 {
   display: block;

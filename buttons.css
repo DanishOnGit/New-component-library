@@ -1,28 +1,26 @@
 /* Colored buttons */
-:root {
-  --pri-color: #ff4654;
+:root{
+  --pri-color: #09e051;
   --sec-color: #c32e42;
   --green-color: rgb(4, 122, 58);
   --danger-color: rgb(223, 4, 4);
   --link-color: rgb(11, 123, 250);
   --grey-color: grey;
 }
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .btn {
-  padding: 0.5rem 1rem;
+  padding: 0.5em 1em;
   border: none;
   outline: none;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   font-size: 0.95rem;
   cursor: pointer;
-
 }
-
-
-.btn-primary {
+.btn-primary{
   color: white;
   background-color: var(--pri-color);
 }
@@ -109,11 +107,12 @@ body {
   background-color: rgb(247, 199, 199);
   transition: 300ms ease;
 }
+
 /* Outline buttons */
 
 .btn-outline-primary {
   color: var(--pri-color);
-  border: 1px solid var(--pri-color);
+  border: 3px solid var(--pri-color);
   background-color: white;
 }
 .btn-outline-primary:hover {
@@ -123,7 +122,7 @@ body {
 }
 .btn-outline-secondary {
   color: var(--grey-color);
-  border: 1px solid var(--grey-color);
+  border: 3px solid var(--grey-color);
   background-color: white;
 }
 .btn-outline-secondary:hover {
@@ -133,7 +132,7 @@ body {
 }
 .btn-outline-success {
   color: var(--green-color);
-  border: 1px solid var(--green-color);
+  border: 3px solid var(--green-color);
   background-color: white;
 }
 .btn-outline-success:hover {
@@ -143,7 +142,7 @@ body {
 }
 .btn-outline-danger {
   color: var(--danger-color);
-  border: 1px solid var(--danger-color);
+  border: 3px solid var(--danger-color);
   background-color: white;
 }
 .btn-outline-danger:hover {
