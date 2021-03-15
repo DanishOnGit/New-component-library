@@ -20,6 +20,20 @@
   width: fit-content;
   border-radius: 0.4rem;
 }
+
+.error .fa-times{
+  margin-left: 0.5rem;
+}
+.success .fa-times{
+  margin-left: 0.5rem;
+}
+.warning .fa-times{
+  margin-left: 0.5rem;
+}
+.info .fa-times{
+  margin-left: 0.5rem;
+}
+
 .error {
   background-color: var(--error-color);
 }
