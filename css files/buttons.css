@@ -77,9 +77,9 @@
   cursor: pointer;
 }
 .btn-icon {
-  padding: 0.5rem;
+  padding: 0.1em 0.3em;
   border-radius: 50%;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--pri-color);
   background-color: transparent;
   border: none;
@@ -92,7 +92,7 @@
 }
 .btn-outline-icon {
   color: var(--pri-color);
-  padding: 0.2rem;
+  padding: 0.1em 0.3em;
   border-radius: 50%;
   font-size: 1.2rem;
   background-color: transparent;

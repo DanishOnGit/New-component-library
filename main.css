@@ -1,14 +1,14 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
-@import url("navigationBars.css");
-@import url("avatar.css");
-@import url("badge.css");
-@import url("buttons.css");
-@import url("card.css");
-@import url("modal.css");
-@import url("inputs.css");
-@import url("typography.css");
-@import url("alerts.css");
+@import url("css files/navigationBars.css");
+@import url("css files/avatar.css");
+@import url("css files/badge.css");
+@import url("css files/buttons.css");
+@import url("css files/card.css");
+@import url("css files/modal.css");
+@import url("css files/inputs.css");
+@import url("css files/typography.css");
+@import url("css files/alerts.css");
 *{
     margin: 0;
     padding: 0;

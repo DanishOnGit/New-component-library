@@ -78,7 +78,7 @@
 .avatar-wrapper-normal .red-badge {
   /* display: inline; */
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 0.75rem;
   right: 0rem;
   width: 0.7rem;
   height: 0.7rem;
@@ -89,7 +89,7 @@
 .avatar-wrapper-normal .green-badge {
   /* display: inline; */
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 0.75rem;
   right: 0rem;
   width: 0.7rem;
   height: 0.7rem;
@@ -102,7 +102,7 @@
 .avatar-wrapper-medium .green-badge {
   /* display: inline; */
   position: absolute;
-  bottom: 0.55rem;
+  bottom: 0.85rem;
   right: 0rem;
   width: 0.7rem;
   height: 0.7rem;
@@ -113,7 +113,7 @@
 .avatar-wrapper-medium .red-badge {
   /* display: inline; */
   position: absolute;
-  bottom: 0.55rem;
+  bottom: 0.85rem;
   right: 0rem;
   width: 0.7rem;
   height: 0.7rem;
@@ -127,7 +127,7 @@
 .avatar-wrapper-large .green-badge {
   /* display: inline; */
   position: absolute;
-  bottom: 0.7rem;
+  bottom: 1rem;
   right:0rem;
   width: 0.7rem;
   height: 0.7rem;
@@ -138,7 +138,7 @@
 .avatar-wrapper-large .red-badge {
   /* display: inline; */
   position: absolute;
-  bottom: 0.7rem;
+  bottom: 1rem;
   right: 0rem;
   width: 0.7rem;
   height: 0.7rem;
