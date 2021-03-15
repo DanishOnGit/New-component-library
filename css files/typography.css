@@ -81,9 +81,15 @@
 }
 .display-4 {
   /* font-weight: bolder; */
-  font-size: 2rem;
+  font-size: 3.5rem;
 }
+.display-5{
+  font-size: 3rem;
+}
+.display-6{
 
+  font-size: 1.75rem;
+}
 /* text highlights*/
 .small {
   font-size: smaller;
