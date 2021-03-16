@@ -44,16 +44,19 @@ a{
   margin-bottom: 1rem;
 }
 
-
-
 /* NAVBAR STYLING */
+/* .nav-container{
+  position:sticky;
+  top: 0rem;
+} */
 .nav-wrap {
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
-  color: var(--white-color);
-  background-color: var(--black-color);
+  color:var(--black-color) ;
+  background-color:var(--white-color);
 }
 .brand-logo{
   font-size: 2.5rem;
@@ -66,6 +69,7 @@ a{
   margin-left: -9rem;
 }
 .nav-list li {
+  font-weight: 500;
   margin: 0 1rem;
   cursor: pointer;
 }
@@ -83,8 +87,8 @@ a{
 /* SIDEBAR STYLING */
 .sidebar {
   position: sticky;
-  top: 0;
-  overflow-y: scroll;
+  top: 0rem;
+  overflow-y: hidden;
   height: 100vh;
   padding: 1rem;
   border-right: 2px solid rgba(206, 205, 205, 0.548);
