@@ -82,6 +82,10 @@ a{
 
 /* SIDEBAR STYLING */
 .sidebar {
+  position: sticky;
+  top: 0;
+  overflow-y: scroll;
+  height: 100vh;
   padding: 1rem;
   border-right: 2px solid rgba(206, 205, 205, 0.548);
   /* background-color: yellowgreen; */
