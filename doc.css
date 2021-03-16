@@ -52,7 +52,6 @@ a{
   background-color: var(--black-color);
 }
 .brand-logo{
-  transform: skew(-30deg);
   font-size: 2.5rem;
 }
 .nav-list {
