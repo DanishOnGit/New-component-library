@@ -82,7 +82,7 @@ iframe {
 .alerts-collection div {
   margin: 1rem;
 }
-.avatars-collection div {
+.avatars-collection~div {
     margin: 1rem;
   }
   .badges-collection div {
@@ -91,6 +91,18 @@ iframe {
   .buttons-collection div {
     margin: 1rem;
   }
+  .cards-collection div{
+      margin: 1rem;
+  }
+  .inputs-collection div{
+    margin: 0 1rem;
+  }
+  .modals-collection div{
+    margin: 1rem;
+}
+.navbars-collection div{
+  margin: 1rem;
+}
 
 /* FOOTER STYLING */
 
