@@ -54,72 +54,66 @@
 .avatar-wrapper-small .red-badge {
   /* display: inline; */
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 0.7rem;
   right: 0rem;
-  width: 0.7rem;
-  height: 0.7rem;
+  width: 0.75rem;
+  height: 0.75rem;
   border-radius: 50%;
-  border-top: 2px solid grey;
-  border-left: 2px solid grey;
+  border: 2px solid white;
 }
 .avatar-wrapper-small .green-badge {
   /* display: inline; */
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 0.7rem;
   right: 0rem;
-  width: 0.7rem;
-  height: 0.7rem;
+  width: 0.75rem;
+  height: 0.75rem;
   border-radius: 50%;
-  border-top: 2px solid grey;
-  border-left: 2px solid grey;
+  border: 2px solid white;
 }
 
 /* badges for normal avatars */
 .avatar-wrapper-normal .red-badge {
   /* display: inline; */
   position: absolute;
-  bottom: 0.75rem;
-  right: 0rem;
-  width: 0.7rem;
-  height: 0.7rem;
+  bottom: 0.8rem;
+  right: 0.1rem;
+  width: 0.8rem;
+  height: 0.8rem;
   border-radius: 50%;
-  border-top: 2px solid grey;
-  border-left: 2px solid grey;
+  border: 2px solid white;
 }
 .avatar-wrapper-normal .green-badge {
   /* display: inline; */
   position: absolute;
-  bottom: 0.75rem;
-  right: 0rem;
-  width: 0.7rem;
-  height: 0.7rem;
+  bottom: 0.8rem;
+  right: 0.1rem;
+  width: 0.8rem;
+  height: 0.8rem;
   border-radius: 50%;
-  border-top: 2px solid grey;
-  border-left: 2px solid grey;
+  border: 2px solid white;
 }
 
 /* badges for medium avatars */
 .avatar-wrapper-medium .green-badge {
   /* display: inline; */
   position: absolute;
-  bottom: 0.85rem;
-  right: 0.1rem;
-  width: 0.7rem;
-  height: 0.7rem;
+  bottom: 0.9rem;
+  right: 0.15rem;
+  width: 0.8rem;
+  height: 0.8rem;
   border-radius: 50%;
-  border-top: 2px solid grey;
-  border-left: 2px solid grey;
+  border: 2px solid white;
 }
 .avatar-wrapper-medium .red-badge {
   /* display: inline; */
   position: absolute;
-  bottom: 0.85rem;
-  right: 0.1rem;
-  width: 0.7rem;
-  height: 0.7rem;
+  bottom: 0.9rem;
+  right: 0.15rem;
+  width: 0.8rem;
+  height: 0.8rem;
   border-radius: 50%;
-  border-top: 2px solid grey;
-  border-left: 2px solid grey;
+  border: 2px solid white;
 }
 
 /* badges for large avatars */
@@ -129,20 +123,22 @@
   position: absolute;
   bottom: 1rem;
   right:0.1rem;
-  width: 0.7rem;
-  height: 0.7rem;
+  width: 0.9rem;
+  height: 0.9rem;
   border-radius: 50%;
-  border-top: 2px solid grey;
-  border-left: 2px solid grey;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border: 2px solid white;
 }
 .avatar-wrapper-large .red-badge {
   /* display: inline; */
   position: absolute;
   bottom: 1rem;
   right: 0.1rem;
-  width: 0.7rem;
-  height: 0.7rem;
+  width: 0.9rem;
+  height: 0.9rem;
   border-radius: 50%;
-  border-top: 2px solid grey;
-  border-left: 2px solid grey;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border: 2px solid white;
 }

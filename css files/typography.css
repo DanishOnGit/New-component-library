@@ -129,6 +129,11 @@
 .list-items-flex li {
   padding: 0 0.5em;
 }
+ul.onHover li:hover{
+  color: var(--pri-color);
+  transition: 300ms ease;
+  cursor: pointer;
+}
 .list-stacked {
   padding-inline-start: 0;
   border-radius: 1rem;
