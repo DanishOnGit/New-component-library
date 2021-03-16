@@ -10,10 +10,11 @@
   --pri-color:#fc452e ;
   --sec-color:#db1d08 ;
   --light-orange:rgb(255, 201, 180);
+  --light-purple:#754c9b;
   --white-color: white;
   --black-color: black;
 }
-
+/* #850af8 */
 /* GENERAL STYLING */
 
 section {
@@ -33,6 +34,7 @@ h1.display-5{
 .main-section .display-6{
   margin-top: 2rem;
   font-weight: 500;
+  color:var(--light-purple) ;
 }
 a{
   text-decoration: none;
@@ -56,10 +58,12 @@ a{
 .brand-logo{
   font-size: 2.5rem;
 }
+
 .nav-list {
   padding-inline-start: 0;
   list-style: none;
   display: flex;
+  margin-left: -9rem;
 }
 .nav-list li {
   margin: 0 1rem;
