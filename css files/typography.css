@@ -143,10 +143,11 @@ ul.onHover li:hover{
   background-color: rgb(245, 212, 212);
   color: var(--pri-color);
   padding: 0.7em;
-  border: 1px solid grey;
+  border: 1px solid var(--grey-color);
 }
 .list-stacked-hover li:hover {
-  background-color: var(--sec-color);
+  background-color: var(--pri-color);
+  transition: 200ms ease;
   color: white;
 }
 .list-stacked li:first-child {
