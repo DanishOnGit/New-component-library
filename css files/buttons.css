@@ -1,7 +1,7 @@
 /* Colored buttons */
 :root{
-  --pri-color: #09e051;
-  --sec-color: #c32e42;
+  --pri-color:#fc452e ;
+  --sec-color:#db1d08 ;
   --green-color: rgb(4, 122, 58);
   --danger-color: rgb(223, 4, 4);
   --link-color: rgb(11, 123, 250);
@@ -105,6 +105,22 @@
   transition: 300ms ease;
 }
 
+/* .badge-button-wrapper{
+  width: max-content;
+  position: relative;
+  background-color: yellow;
+}
+.badge-button-wrapper .fa-bell{
+  color: var(--pri-color);
+}
+.badge-button-wrapper .counter-badge{
+  font-size: 0.75rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: 1px solid black;
+  border-radius: 50%;
+} */
 /* Outline buttons */
 
 .btn-outline-primary {

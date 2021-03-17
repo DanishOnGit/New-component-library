@@ -193,11 +193,8 @@ footer li:hover{
 /* ABOUT PAGE STYLING */
 .about-container{
   width: 50rem;
-  position: absolute;
-  top:45%;
-  left:50%;
-  transform: translate(-50%,-50%);
- 
+  margin: auto;
+
 }
 .what-wrapper,.how-wrapper{
   margin: 1.5rem 0;
@@ -216,4 +213,19 @@ footer li:hover{
 }
 .home-page_text-container button{
   margin-bottom: 2rem;
+}
+
+#cssUrl{
+  position: relative;
+}
+.popUpText{
+  background-color: rgba(59, 2, 2, 0.637);
+  width: 100px;
+  visibility: hidden;
+  position:absolute;
+  top:50%;
+  left: 50%;
+}
+.showPopUp{
+  visibility: visible;
 }
