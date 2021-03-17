@@ -84,9 +84,12 @@
     font-weight: bolder;
     color: var(--grey-color);
 }
-/* .image-card-wrapper .card-image .btn-link:hover{
-    background-color: rgb(238, 206, 211);
-} */
+.product-details-wrapper{
+    padding:0.4rem;
+}
+.card-image.greater-height img{
+    height:15rem;
+}
 .image-card-wrapper .card-image .badge-success{
     position: absolute;
     top: 1rem;

@@ -41,6 +41,10 @@
 .red-badge {
   background-color: rgb(182, 3, 3);
 }
+.pill{
+  border-radius: 1rem;
+  font-size: 0.5rem;
+}
  
 .avatar-wrapper-small,
 .avatar-wrapper-normal,
