@@ -110,7 +110,7 @@
 
 .btn-outline-primary {
   color: var(--pri-color);
-  padding: 0 0.5em;
+
   border: 3px solid var(--pri-color);
   
   background-color: white;
