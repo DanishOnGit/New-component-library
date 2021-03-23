@@ -10,7 +10,7 @@
 
 
 .btn {
-  padding: 0.5em 1em;
+  padding: 0.2em 0.5em;
   border: none;
   outline: none;
   /* border-radius: 4px; */
@@ -126,7 +126,7 @@
 .btn-outline-primary {
   color: var(--pri-color);
   border: 3px solid var(--pri-color);
-  border-style: inset;
+  
   background-color: white;
 }
 .btn-outline-primary:hover {
@@ -137,7 +137,7 @@
 .btn-outline-secondary {
   color: var(--grey-color);
   border: 3px solid var(--grey-color);
-  border-style: inset;
+ 
   background-color: white;
 }
 .btn-outline-secondary:hover {
@@ -148,7 +148,7 @@
 .btn-outline-success {
   color: var(--green-color);
   border: 3px solid var(--green-color);
-  border-style: inset;
+  
   background-color: white;
 }
 .btn-outline-success:hover {
@@ -159,7 +159,7 @@
 .btn-outline-danger {
   color: var(--danger-color);
   border: 3px solid var(--danger-color);
-  border-style: inset;
+ 
   background-color: white;
 }
 .btn-outline-danger:hover {
