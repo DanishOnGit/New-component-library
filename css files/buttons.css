@@ -105,26 +105,12 @@
   transition: 300ms ease;
 }
 
-/* .badge-button-wrapper{
-  width: max-content;
-  position: relative;
-  background-color: yellow;
-}
-.badge-button-wrapper .fa-bell{
-  color: var(--pri-color);
-}
-.badge-button-wrapper .counter-badge{
-  font-size: 0.75rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  border: 1px solid black;
-  border-radius: 50%;
-} */
+
 /* Outline buttons */
 
 .btn-outline-primary {
   color: var(--pri-color);
+  padding: 0 0.5em;
   border: 3px solid var(--pri-color);
   
   background-color: white;
