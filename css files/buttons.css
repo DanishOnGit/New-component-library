@@ -125,7 +125,7 @@
 
 .btn-outline-primary {
   color: var(--pri-color);
-  border: 3px solid var(--pri-color);
+  border: 3px solid var(--pri-color) inset;
   background-color: white;
 }
 .btn-outline-primary:hover {
@@ -135,7 +135,7 @@
 }
 .btn-outline-secondary {
   color: var(--grey-color);
-  border: 3px solid var(--grey-color);
+  border: 3px solid var(--grey-color) inset;
   background-color: white;
 }
 .btn-outline-secondary:hover {
@@ -145,7 +145,7 @@
 }
 .btn-outline-success {
   color: var(--green-color);
-  border: 3px solid var(--green-color);
+  border: 3px solid var(--green-color) inset;
   background-color: white;
 }
 .btn-outline-success:hover {
@@ -155,7 +155,7 @@
 }
 .btn-outline-danger {
   color: var(--danger-color);
-  border: 3px solid var(--danger-color);
+  border: 3px solid var(--danger-color) inset;
   background-color: white;
 }
 .btn-outline-danger:hover {
@@ -171,6 +171,6 @@
   font-size: 1.5em;
 }
 .btn-small {
-  padding: 0.3rem 0.7rem;
+  padding: 0.3em 0.7em;
   font-size: 0.8em;
 }
